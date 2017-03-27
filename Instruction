@@ -1,0 +1,5 @@
+Để dùng được, bạn cần tạo 1 ứng dụng Facebook, cấp token của fanpage cho ứng dụng đó, thiết lập 1 webhook để nhận request GET/POST từ Facebook
+Request GET từ facebook sẽ dùng để verify webhook.
+Request POST từ Facebook là để chuyển các event như có tin nhắn tới.
+Bạn cũng cần phải thêm các token vào config.py
+Sau khi viết và debug xong, bạn cũng cần phải submit con bot của bạn lên cho Facebook để họ review và cấp quyền pages_messaging cho app của bạn
